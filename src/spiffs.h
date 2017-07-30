@@ -204,7 +204,6 @@ typedef struct {
   spiffs_write hal_write_f;
   // physical erase function
   spiffs_erase hal_erase_f;
-#if SPIFFS_SINGLETON == 0
   // physical size of the spi flash
   u32_t phys_size;
   // physical offset in spi flash used for spiffs,
@@ -221,7 +220,6 @@ typedef struct {
   // log_block_size / 8
   u32_t log_page_size;
 
-#endif
 #if SPIFFS_FILEHDL_OFFSET
   // an integer offset added to each file handle
   u16_t fh_ix_offset;
