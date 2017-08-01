@@ -9,6 +9,8 @@ For legal stuff, see [LICENSE](https://github.com/pellepl/spiffs/blob/master/LIC
 
 Love to hear feedback though!
 
+**make files, test files removed and spiffs_config.h, spiffs_api.h, spiffs_api.cpp and spiffs_hal.cpp updated for the Arduino IDE development environment by ppostuma**
+
 
 ## INTRODUCTION
 
